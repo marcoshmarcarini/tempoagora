@@ -1,0 +1,68 @@
+/* 
+#2585D9
+#365673
+#687B8C
+#44AFF2
+#4AB0D9
+*/
+
+.weatherForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.weatherForm input {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+
+.weatherForm button {
+    width: 100px;
+    height: 40px;
+    margin: 0 auto 25px auto;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #808080;
+}
+
+.weatherResult {
+    max-width: 500px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.windDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.weatherWind {
+    transition: all 2000ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    z-index: 2;
+}
+
+.wetherWindRoad {
+    position: absolute;
+    z-index: 1;
+}
+
+.uv {
+    transition: all 2000ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 5px;
+}

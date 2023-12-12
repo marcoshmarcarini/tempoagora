@@ -1,0 +1,21 @@
+/* 
+#2585D9
+#365673
+#687B8C
+#44AFF2
+#4AB0D9
+*/
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.homeTitulo{
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
